@@ -1,0 +1,33 @@
+CRITICAL - 2022-02-21 20:40:31 --> Class 'App\Controllers\Servicess' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-21 20:41:09 --> Class 'App\Controllers\Servicess' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-21 20:42:10 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'D:\\UKK\\app\\Mode...', 22, Array)
+#1 D:\UKK\app\Models\CatatanPerjalanan_model.php(22): array_push(NULL, Array)
+#2 D:\UKK\app\Controllers\Catatanperjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('123456789012345...')
+#3 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#4 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#5 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#8 {main}
+CRITICAL - 2022-02-21 20:42:36 --> Undefined index: nik
+#0 D:\UKK\app\Models\CatatanPerjalanan_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\UKK\\app\\Mode...', 21, Array)
+#1 D:\UKK\app\Controllers\Catatanperjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('123456789012345...')
+#2 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#7 {main}

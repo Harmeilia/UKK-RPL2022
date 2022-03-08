@@ -1,0 +1,51 @@
+CRITICAL - 2022-02-07 19:48:22 --> Class 'App\Models\User_model' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\IsiData->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-07 19:49:03 --> Class 'App\Models\User_model' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\IsiData->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-07 19:50:10 --> Call to undefined method App\Models\User::findByNIK()
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\IsiData->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-07 19:55:03 --> syntax error, unexpected 'function' (T_FUNCTION), expecting variable (T_VARIABLE)
+#0 D:\UKK\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\UKK\\app\\Mode...')
+#1 D:\UKK\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#3 D:\UKK\app\Controllers\IsiData.php(22): spl_autoload_call('App\\Models\\User')
+#4 D:\UKK\system\CodeIgniter.php(825): App\Controllers\IsiData->index()
+#5 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#6 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#9 {main}
+CRITICAL - 2022-02-07 19:56:27 --> Class 'App\Models\User_model' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-07 19:57:04 --> Undefined index: waktu
+#0 D:\UKK\app\Views\catatan_perjalanan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\UKK\\app\\View...', 29, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 D:\UKK\app\Controllers\CatatanPerjalanan.php(28): view('catatan_perjala...', Array)
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}

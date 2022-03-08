@@ -1,0 +1,8 @@
+CRITICAL - 2022-02-01 22:36:50 --> syntax error, unexpected 'if' (T_IF), expecting ';'
+#0 D:\UKK\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 D:\UKK\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/login')
+#2 D:\UKK\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#6 {main}

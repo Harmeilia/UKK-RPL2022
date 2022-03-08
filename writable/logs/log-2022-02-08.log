@@ -1,0 +1,81 @@
+CRITICAL - 2022-02-08 19:44:29 --> Class 'App\Models\User_model' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-08 19:45:43 --> Class 'App\Controllers\User' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
+CRITICAL - 2022-02-08 19:50:05 --> Undefined variable: userdata
+#0 D:\UKK\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK\\app\\View...', 4, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK\app\Controllers\Home.php(19): view('index')
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-08 19:51:10 --> Undefined variable: userdata
+#0 D:\UKK\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK\\app\\View...', 4, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK\app\Controllers\Home.php(19): view('index')
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-08 19:52:23 --> Undefined variable: userdata
+#0 D:\UKK\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK\\app\\View...', 4, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK\app\Controllers\Home.php(19): view('index')
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-08 19:52:27 --> Undefined variable: userdata
+#0 D:\UKK\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK\\app\\View...', 4, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK\app\Controllers\Home.php(19): view('index')
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-08 19:54:37 --> Undefined variable: userdata
+#0 D:\UKK\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK\\app\\View...', 4, Array)
+#1 D:\UKK\system\View\View.php(210): include('D:\\UKK\\app\\View...')
+#2 D:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK\app\Controllers\Home.php(19): view('index')
+#5 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-08 19:56:46 --> Class 'App\Controllers\User_model' not found
+#0 D:\UKK\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\public\\i...')
+#5 {main}
