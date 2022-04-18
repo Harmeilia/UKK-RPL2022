@@ -30,7 +30,7 @@
                     <i class="fas fa-flag"></i>
                 </span>
                 <span class="text">Simpan</span>
-</button>
+            </button>
         </form>
     </div>
 </div>

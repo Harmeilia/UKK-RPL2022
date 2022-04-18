@@ -8,7 +8,7 @@ class User extends BaseModel  {
         $data = BaseModel::csvFileToJson("users.csv");
         var_dump($data);
         foreach ($data as $key => $value) {
-            if ($value['nik'] == $nik && $value['nama'] == $nama) {
+            if ($value['nik'] == $nik && $value['password'] == $nama) {
                 return true;
             }
         }
@@ -28,7 +28,7 @@ class User extends BaseModel  {
             return -1;
         }
 
-        file_put_contents("users.csv","\r\n".$nik.",".$nama,FILE_APPEND);
+        file_put_contents("users.csv","\r\n".$nik.",".$nama.",".$password   ,FILE_APPEND);
         return true;
     }
 

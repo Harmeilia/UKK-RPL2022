@@ -1,0 +1,77 @@
+CRITICAL - 2022-04-07 21:23:37 --> Undefined index: proses
+#0 D:\UKK\UKK-RPL2022\app\Views\catatan_perjalanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\UKK\\UKK-RPL2...', 33, Array)
+#1 D:\UKK\UKK-RPL2022\system\View\View.php(210): include('D:\\UKK\\UKK-RPL2...')
+#2 D:\UKK\UKK-RPL2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\UKK-RPL2022\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(28): view('catatan_perjala...', Array)
+#5 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#10 {main}
+CRITICAL - 2022-04-07 21:24:23 --> Undefined index: proses
+#0 D:\UKK\UKK-RPL2022\app\Views\catatan_perjalanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\UKK\\UKK-RPL2...', 33, Array)
+#1 D:\UKK\UKK-RPL2022\system\View\View.php(210): include('D:\\UKK\\UKK-RPL2...')
+#2 D:\UKK\UKK-RPL2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK\UKK-RPL2022\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(28): view('catatan_perjala...', Array)
+#5 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#10 {main}
+CRITICAL - 2022-04-07 22:14:55 --> Undefined property: App\Controllers\CatatanPerjalanan::$load
+#0 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\UKK\\UKK-RPL2...', 33, Array)
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#3 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#6 {main}
+CRITICAL - 2022-04-07 22:15:37 --> Undefined property: App\Controllers\CatatanPerjalanan::$load
+#0 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\UKK\\UKK-RPL2...', 33, Array)
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#3 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#6 {main}
+CRITICAL - 2022-04-07 22:16:58 --> Undefined property: App\Controllers\CatatanPerjalanan::$form_validation
+#0 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\UKK\\UKK-RPL2...', 34, Array)
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#3 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#6 {main}
+CRITICAL - 2022-04-07 22:21:06 --> Undefined property: App\Controllers\CatatanPerjalanan::$load
+#0 D:\UKK\UKK-RPL2022\app\Controllers\Catatanperjalanan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\UKK\\UKK-RPL2...', 34, Array)
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#3 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#6 {main}
+CRITICAL - 2022-04-07 22:21:58 --> Too few arguments to function App\Controllers\CatatanPerjalanan::editdata(), 0 passed in D:\UKK\UKK-RPL2022\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#5 {main}
+CRITICAL - 2022-04-07 22:31:42 --> Too few arguments to function App\Controllers\CatatanPerjalanan::editdata(), 0 passed in D:\UKK\UKK-RPL2022\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#5 {main}
+CRITICAL - 2022-04-07 22:52:04 --> Too few arguments to function App\Controllers\CatatanPerjalanan::editdata(), 0 passed in D:\UKK\UKK-RPL2022\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->editdata()
+#1 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#2 D:\UKK\UKK-RPL2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\UKK-RPL2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\UKK-RPL2022\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK-RPL2...')
+#5 {main}

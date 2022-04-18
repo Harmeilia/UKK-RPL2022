@@ -28,7 +28,8 @@ class IsiData extends BaseController
             $this->request->getVar("tanggal"),
             $this->request->getVar("waktu"),
             $this->request->getVar("lokasi"),
-            $this->request->getVar("suhu")
+            $this->request->getVar("suhu"),
+            Services::session()->get("nik")
         );
 
         Services::session()->setFlashdata("success", "Data berhasil disimpan");

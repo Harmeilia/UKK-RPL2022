@@ -3,9 +3,9 @@
 namespace App\Models;
 
 class CatatanPerjalanan_model extends BaseModel  {
-    public static function tambah($tanggal,$waktu,$lokasi,$suhu) {
+    public static function tambah($tanggal,$waktu,$lokasi,$suhu,$nik) {
         $data = BaseModel::csvFileToJson("catatan_perjalanan.csv");
-        file_put_contents("catatan_perjalanan.csv","\r\n".$tanggal.",".$waktu.",".$lokasi.",".$suhu,FILE_APPEND);
+        file_put_contents("catatan_perjalanan.csv","\r\n".$tanggal.",".$waktu.",".$lokasi.",".$suhu.",".$nik,FILE_APPEND);
         return true;
     }
 
