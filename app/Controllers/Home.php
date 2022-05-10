@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\User;
 use Config\Services;
+use App\Models\CatatanPerjalanan_model;
 
 class Home extends BaseController
 {
@@ -19,7 +20,8 @@ class Home extends BaseController
         }
 
         $userdata = User::findByNIK(Services::session()->get("nik"));
-        return view("index", ["userdata"=>$userdata]);
+        $cpdata = CatatanPerjalanan_model::get_byNIK(Services::session()->get("nik"));
+        return view("index", ["userdata"=>$userdata,"cpdata"=>$cpdata]);
     }
 
     public function login()
